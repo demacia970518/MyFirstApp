@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="echarts.min.js"></script>
+</head>
+<body>
+
+<div id="main" style="height: 300px; width: 100%;"></div>
+
+</body>
+<script type="text/javascript">
+
+		function createCharts(data1, data2) {
+			var myChart = echarts.init(document.getElementById('main'));
+			var option = {
+				title: {
+					text: "价格波动"
+				},
+				tooltip: {},
+				legend: {
+					data: ['价格波动']
+				},
+				xAxis: {
+					data: data1
+				},
+				yAxis: {
+				min:'dataMin',
+				name:'元'
+				},
+				grid: {
+        		left: '15%'
+    			},
+				series: [{
+					name: '价格波动',
+					type: 'line',
+					data: data2
+				}],
+			};
+
+			myChart.setOption(option);
+
+		}
+
+	</script>
+</html>

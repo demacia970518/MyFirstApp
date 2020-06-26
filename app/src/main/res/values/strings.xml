@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">price:6300</string>
+    <string name="edit_message">Click</string>
+    <string name="button_send">GOODS</string>
+    <string name="price">price:351</string>
+    <string name="bijia">price relative</string>
+    <string name="app_label">GOODS</string>
+    <string name="search_hint">搜索商品或商品链接</string>
+    <string name="new_game">"搜索</string>
+    <string name="good_price">price</string>
+    <string name="title_activity_suggestion">MainActivity</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">个人</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_suggest">MainActivity</string>
+</resources>
